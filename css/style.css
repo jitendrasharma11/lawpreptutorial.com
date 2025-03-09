@@ -11,9 +11,7 @@ header{
 header ul li{
     margin-left: 20px;
 }
-.home-banner {
-    background: linear-gradient(261.99deg, #ffe3dd 2.82%, #fff8da 17.1%, rgba(255, 249, 221, 0) 31.78%, hsla(0, 100%, 90%, .04) 50.27%, rgba(255, 249, 221, .35) 67.28%, #ffeee9 77.89%, rgba(255, 238, 233, .14) 91.09%);
-}
+
 #bannerSlider .carousel-indicators [data-bs-target]{
     width: 15px;
     height: 15px;
@@ -24,6 +22,20 @@ header ul li{
 }
 .custom-color{
     background-color: #10182A;
+}
+
+.new_course_card {
+    min-height: 420px;
+    background: url(/images/courses-card-bg.webp) no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+.why-choosetext h5{
+    font-size: 17px;
+}
+.why-choosetext p{
+    font-size: 14px;
 }
 .accordion-body{
     font-size: 14px;
