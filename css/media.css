@@ -3,8 +3,8 @@
     .footer2-text{
         text-align: center;
     }
-    .social-icon i{
-        text-align: center;
+    .social-icon {
+        text-align: center !important;
     }
 }
 
