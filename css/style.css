@@ -42,6 +42,9 @@ header ul li{
 .why-choosetext p{
     font-size: 14px;
 }
+#teamSlider .active span{
+    background-color: red;
+}
 .accordion-body{
     font-size: 14px;
 }
